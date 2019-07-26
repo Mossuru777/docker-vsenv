@@ -5,3 +5,5 @@ MAINTAINER Mossuru777 "mossuru777@gmail.com"
 COPY cpanfile /tmp/
 RUN cpanm --installdeps /tmp
 RUN rm -fr /tmp/**
+
+CMD /bin/sh
