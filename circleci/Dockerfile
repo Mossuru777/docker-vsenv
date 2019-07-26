@@ -6,7 +6,7 @@ USER root
 # Install modules
 COPY cpanfile /tmp/
 RUN cpanm --installdeps /tmp
-RUN rm -fr /tmp/**
+RUN rm -fr /root/.cpanm /tmp/**
 
 WORKDIR /home/circleci
 USER circleci
