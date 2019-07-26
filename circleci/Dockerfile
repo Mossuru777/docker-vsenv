@@ -8,6 +8,7 @@ COPY cpanfile /tmp/
 RUN cpanm --installdeps /tmp
 RUN rm -fr /tmp/**
 
+WORKDIR /home/circleci
 USER circleci
 
 CMD /bin/sh

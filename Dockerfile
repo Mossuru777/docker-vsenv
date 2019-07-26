@@ -6,4 +6,6 @@ COPY cpanfile /tmp/
 RUN cpanm --installdeps /tmp
 RUN rm -fr /tmp/**
 
+WORKDIR /root
+
 CMD /bin/sh
