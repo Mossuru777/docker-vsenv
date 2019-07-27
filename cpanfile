@@ -18,3 +18,4 @@ requires 'Types::Serialiser';
 
 requires 'Test::More';
 requires 'Data::Printer';
+requires 'TAP::Formatter::JUnit';
