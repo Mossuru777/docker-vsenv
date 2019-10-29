@@ -1,4 +1,5 @@
 requires 'Crypt::CBC';
+requires 'Crypt::Blowfish';
 requires 'Crypt::OpenSSL::RSA';
 requires 'Crypt::Rijndael';
 requires 'File::Find::Rule';
