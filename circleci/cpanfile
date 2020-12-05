@@ -18,5 +18,11 @@ requires 'Time::Seconds';
 requires 'Types::Serialiser';
 
 requires 'Test::More';
+requires 'Capture::Tiny';
 requires 'Data::Printer';
+requires 'Class::Accessor::Lite';
+requires 'DateTime';
+requires 'Data::Fake';
+requires 'String::Random';
+
 requires 'TAP::Formatter::JUnit';
