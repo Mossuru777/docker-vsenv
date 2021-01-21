@@ -18,6 +18,7 @@ requires 'Time::Seconds';
 requires 'Types::Serialiser';
 
 requires 'Test::More';
+requires 'Test::MockTime';
 requires 'Capture::Tiny';
 requires 'Data::Printer';
 requires 'Class::Accessor::Lite';
