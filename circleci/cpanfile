@@ -25,5 +25,6 @@ requires 'Class::Accessor::Lite';
 requires 'DateTime';
 requires 'Data::Fake';
 requires 'String::Random';
+requires 'UUID::Tiny';
 
 requires 'TAP::Formatter::JUnit';
